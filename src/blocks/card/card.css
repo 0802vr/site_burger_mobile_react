@@ -1,0 +1,72 @@
+.card {
+    width: auto;
+    
+}
+.card__img1 {
+    background-image: url(../../image/Vector\ \(1\).png);
+    background-color: black;
+    width: 89px;
+    height: 89px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card__img2 {
+    background-image: url(../../image/Vector\ \(2\).png);
+    background-color: black;
+    width: 89px;
+    height: 89px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card__img3 {
+    background-image: url(../../image/Vector\ \(3\).png);
+    background-color: black;
+    width: 89px;
+    height: 89px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card__img4 {
+    background-image: url(../../image/800px-Figma-logo.svg.png);
+    width: 89px;
+    height: 89px;
+    margin-left: 70px;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+}
+.card__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+.card__stars {
+    margin-bottom: 110px;
+}
+.card__stars span  {
+    text-align: center;
+    padding: 0;
+	font-size: 32px;
+	margin: 0 3px;
+	line-height: 1;
+	color: lightgrey;
+     
+}
+.card__stars > span:before {
+	content: '★';
+}
+.card__stars > span.active {
+	color: black;
+	text-shadow: 1px 1px rgb(58, 53, 51);
+}

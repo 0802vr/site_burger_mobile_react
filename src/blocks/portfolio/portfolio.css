@@ -1,0 +1,92 @@
+.portfolio {
+    height: auto;
+    max-width: 1445px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ 
+.portfolio__title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 112px;
+}
+.portfolio__img1 {
+    background-image: url(../../image/Слой\ 8.png); 
+    width: 936px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    margin-top: 47px;
+    margin-bottom: 44px;
+}
+@media  (max-width:1000px)  {
+    .portfolio__img1 {
+        width: 80vw;
+        min-width: 80vw;
+        max-height: 400px;
+        min-height: 171px;
+        margin-top: 33px;
+        margin-bottom: 77px;
+    }
+  }
+.portfolio__img2 {
+    background-image: url(../../image/reebok_web.png);
+    width: 936px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    margin-top: 166px;
+    margin-bottom: 44px;
+} 
+@media  (max-width:1000px)  {
+    .portfolio__img2 {
+        width: 80vw;
+        min-width: 80vw;
+        max-height: 400px;
+        min-height: 171px;
+        margin-top: 33px;
+        margin-bottom: 77px;
+    }
+  }
+.portfolio__img3 {
+    background-image: url(../../image/reebok_web\ \(1\).png);     
+    width: 936px;
+    height: 510px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    margin-left: auto;
+    margin-right: auto;     
+    margin-top: 166px;
+    margin-bottom: 44px;
+}
+@media  (max-width:1000px)  {
+    .portfolio__img3 {
+        width: 80vw;
+        min-width: 80vw;
+        max-height: 400px;
+        min-height: 171px;
+        margin-top: 33px;
+        margin-bottom: 77px;
+    }
+  }
+.portfolio__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 0;
+    
+}
+.portfolio__subtitle:last-child { margin-bottom: 96px; }

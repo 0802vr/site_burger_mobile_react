@@ -1,0 +1,31 @@
+.header {
+    height: auto;
+    width: 944px;
+    border-bottom: #828282 solid 1px;
+    display: flex;
+    justify-content:space-between; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.link {
+    text-decoration:none;
+    color: #828282;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.link:hover {
+    color: #070707;
+}
+@media(max-width:768px)  {
+    .header {
+      display: none;   
+    }
+  }
+  @media(min-width:768px) and (max-width:1100px)  {
+    .header {
+        width: 750px;   
+    }
+  }

@@ -1,0 +1,46 @@
+.skils {
+     
+    margin-left: auto;
+    margin-right: auto;
+}
+.skils__title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 91px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 124px;
+
+}
+.skils__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 83px;
+ }
+
+.skils__table {
+    display: grid;
+    max-width: 910px;
+    grid-template-columns: 175px 175px 175px 175px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:455px)  {
+    .skils__table {
+        grid-template-columns: 175px;  
+        width: 175px;
+    }
+  }
+  @media(min-width:455px) and (max-width:1000px)  {
+    .skils__table {
+        grid-template-columns: 175px 175px; 
+        width: 70vw; 
+    }
+  }
+ 

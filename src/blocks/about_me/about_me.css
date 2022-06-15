@@ -1,0 +1,33 @@
+.about_me {
+    height: auto;
+    max-width: 1445px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.about_me__title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 120px;
+    cursor: pointer; 
+ 
+}
+.about_me__text {
+    max-width: 485px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+.about_me__paragraph {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.about_me__paragraph:nth-child(2) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
